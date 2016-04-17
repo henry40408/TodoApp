@@ -1,17 +1,12 @@
 import React, {
   AppRegistry,
-  View,
 } from 'react-native';
 
-const todoItems = [
-  'buy some books',
-  'cut the rope',
-  'remember the milk',
-];
+import TodoList from './components/TodoList';
 
 class TodoApp extends React.Component {
   render() {
-    return (<View />);
+    return (<TodoList />);
   }
 }
 
